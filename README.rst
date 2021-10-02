@@ -3,7 +3,7 @@
 Simple Dynamic Level of Detail for Geometry Images
 **************************************************
 
-This repository includes the code for "Simple dynamic LOD for geometry images" presented at GRAPHITE '06: Proceedings of the 4th international conference on Computer graphics and interactive techniques in Australasia and Southeast Asia.
+This repository includes the code for "Simple dynamic LOD for geometry images" published in GRAPHITE '06: Proceedings of the 4th international conference on Computer graphics and interactive techniques in Australasia and Southeast Asia.
 
 The core clases are ``cGI`` in ``Include/gi.h`` and ``Source/gi.cpp``, ``cGILod`` in ``Include/giLod.h`` and ``Source/giLod.cpp``. The host code is in ``Source/main.cpp`` and relevant shaders are ``passthruTexVertex.glsl``, ``distanceMipMapPixel.glsl`` and ``genLODSelectionPixel.glsl``. 3D models for testing are encoded in C structures (``male-25Textured.cpp``, ``vaseTextured.cpp``) and can be loaded by the ``ModelObject`` class. 
 
