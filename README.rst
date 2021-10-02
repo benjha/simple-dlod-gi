@@ -7,7 +7,7 @@ This repository includes the code for "Simple dynamic LOD for geometry images" p
 
 The core clases are ``cGI`` in ``Include/gi.h`` and ``Source/gi.cpp``, ``cGILod`` in ``Include/giLod.h`` and ``Source/giLod.cpp``. The host code is in ``Source/main.cpp`` and relevant shaders are ``passthruTexVertex.glsl``, ``distanceMipMapPixel.glsl`` and ``genLODSelectionPixel.glsl``. 3D models for testing are encoded in C structures (``male-25Textured.cpp``, ``vaseTextured.cpp``) and can be loaded by the ``ModelObject`` class. 
 
-Note our algorithm requires any 3D model to have a texture parameterization in such a way texture coordinates are unique for each vertex. In contrast, the original Geometry Image (GIM) technique and related algorithms implments stitching and calculate their own 2D parameterization to optimize GIM space, reduce model reconstruction distortion, etc. 
+Note our algorithm requires any 3D model to have a texture parameterization in such a way texture coordinates are unique for each vertex. In contrast, the original Geometry Image (GIM) technique and related algorithms implements stitching and calculate their own 2D parameterization to optimize GIM space, reduce model reconstruction distortion, etc. 
 
 If you use this code in a publication or project, a link to or citation of both, our paper and this repository, would be appreciated.
 
